@@ -1,3 +1,7 @@
+[EDIT: 2019/01/16]
+Forked from https://archive.codeplex.com/?p=hawkeye and modified for compilation with VisualStudio 2017 (C++/cli instead of clr:OldStyle and fix for .Net 4 instead of .Net 2)
+
+
 [EDIT: 2010/01/10] In the case you are running an x86 Windows; you are greatly advised to upgrade to Hawkeye 1.2.5: the previous release is broken on these OS.
 I apologize for the inconvenience, but it appears Hawkeye 1.2.4 (and probably previous versions) doesn't run properly on x86 Windows (See issue #7791). Hawkeye 1.2.5 fixes this issue.
 
