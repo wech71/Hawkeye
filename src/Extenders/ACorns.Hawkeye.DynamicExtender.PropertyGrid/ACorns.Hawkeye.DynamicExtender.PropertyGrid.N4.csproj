@@ -128,16 +128,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ACorns.Hawkeye.CoreUI\ACorns.Hawkeye.CoreUI.csproj">
-      <Project>{60ACCCD1-B770-4C47-912B-1B32E564EE8E}</Project>
-      <Name>ACorns.Hawkeye.CoreUI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\ACorns.Hawkeye.Core\ACorns.Hawkeye.Core.csproj">
-      <Project>{E4799E49-66E7-423F-BAF5-BABB769182D9}</Project>
-      <Name>ACorns.Hawkeye.Core</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
@@ -153,6 +143,16 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ACorns.Hawkeye.CoreUI\ACorns.Hawkeye.CoreUI.N4.csproj">
+      <Project>{60acccd1-b770-4c47-912b-1b32e564ee8e}</Project>
+      <Name>ACorns.Hawkeye.CoreUI.N4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ACorns.Hawkeye.Core\ACorns.Hawkeye.Core.N4.csproj">
+      <Project>{e4799e49-66e7-423f-baf5-babb769182d9}</Project>
+      <Name>ACorns.Hawkeye.Core.N4</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

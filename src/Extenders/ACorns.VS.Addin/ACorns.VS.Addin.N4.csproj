@@ -125,13 +125,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ACorns.Hawkeye.CoreUI\ACorns.Hawkeye.CoreUI.csproj">
-      <Project>{60ACCCD1-B770-4C47-912B-1B32E564EE8E}</Project>
-      <Name>ACorns.Hawkeye.CoreUI</Name>
+    <ProjectReference Include="..\..\ACorns.Hawkeye.CoreUI\ACorns.Hawkeye.CoreUI.N4.csproj">
+      <Project>{60acccd1-b770-4c47-912b-1b32e564ee8e}</Project>
+      <Name>ACorns.Hawkeye.CoreUI.N4</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\ACorns.Hawkeye.Core\ACorns.Hawkeye.Core.csproj">
-      <Project>{E4799E49-66E7-423F-BAF5-BABB769182D9}</Project>
-      <Name>ACorns.Hawkeye.Core</Name>
+    <ProjectReference Include="..\..\ACorns.Hawkeye.Core\ACorns.Hawkeye.Core.N4.csproj">
+      <Project>{e4799e49-66e7-423f-baf5-babb769182d9}</Project>
+      <Name>ACorns.Hawkeye.Core.N4</Name>
     </ProjectReference>
     <ProjectReference Include="..\ACorns.Hawkeye.DynamicExtender.TFSQueryResult\ACorns.Hawkeye.DynamicExtender.TFSQueryResult.csproj">
       <Project>{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}</Project>

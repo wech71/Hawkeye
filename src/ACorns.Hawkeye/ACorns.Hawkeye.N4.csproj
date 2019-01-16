@@ -105,6 +105,7 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <CodeAnalysisRuleSet>Migrated rules for ACorns.Hawkeye.N4.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
     <OutputPath>..\Build\N4\Release\</OutputPath>
@@ -152,15 +153,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ACorns.Hawkeye.CoreUI\ACorns.Hawkeye.CoreUI.N4.csproj">
-      <Project>{60ACCCD1-B770-4C47-912B-1B32E564EE8E}</Project>
+      <Project>{60acccd1-b770-4c47-912b-1b32e564ee8e}</Project>
       <Name>ACorns.Hawkeye.CoreUI.N4</Name>
     </ProjectReference>
     <ProjectReference Include="..\ACorns.Hawkeye.Core\ACorns.Hawkeye.Core.N4.csproj">
-      <Project>{E4799E49-66E7-423F-BAF5-BABB769182D9}</Project>
+      <Project>{e4799e49-66e7-423f-baf5-babb769182d9}</Project>
       <Name>ACorns.Hawkeye.Core.N4</Name>
     </ProjectReference>
     <ProjectReference Include="..\Extenders\ACorns.Hawkeye.DynamicExtender.PropertyGrid\ACorns.Hawkeye.DynamicExtender.PropertyGrid.N4.csproj">
-      <Project>{B54F3046-D28A-434C-ADA0-6DEC0152718E}</Project>
+      <Project>{b54f3046-d28a-434c-ada0-6dec0152718e}</Project>
       <Name>ACorns.Hawkeye.DynamicExtender.PropertyGrid.N4</Name>
     </ProjectReference>
     <ProjectReference Include="..\Extenders\Acorns.Hawkeye.DynamicExtender.Snapshot\Acorns.Hawkeye.DynamicExtender.Snapshot.N4.csproj">
