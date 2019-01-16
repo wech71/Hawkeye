@@ -1,0 +1,226 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ACorns.Hawkeye.Injector", "ACorns.Hawkeye.Injector\ACorns.Hawkeye.Injector.vcproj", "{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACorns.Hawkeye", "ACorns.Hawkeye\ACorns.Hawkeye.csproj", "{4872E30E-BE91-4DF7-B1C4-2B75133256C8}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{58BA2FD9-3A81-4B33-A0D0-C372BDBC3FBA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		CommonAssemblyInfo.cs = CommonAssemblyInfo.cs
+		Credits.txt = Credits.txt
+		History.txt = History.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACorns.Hawkeye.Core", "ACorns.Hawkeye.Core\ACorns.Hawkeye.Core.csproj", "{E4799E49-66E7-423F-BAF5-BABB769182D9}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACorns.Hawkeye.CoreUI", "ACorns.Hawkeye.CoreUI\ACorns.Hawkeye.CoreUI.csproj", "{60ACCCD1-B770-4C47-912B-1B32E564EE8E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extender", "Extender", "{1EB2D013-4C29-4B81-A325-798F451C47CA}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hawkeye.DemoProject", "DemoProjects\Hawkeye.DemoProject\Hawkeye.DemoProject.csproj", "{CF275334-9C06-4B4D-A707-C22132724A3E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{23605CE0-8D30-4B8E-84F0-C187848E454F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3990BBAE-1E35-4467-B554-32A9B42D6288}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACorns.Hawkeye.DynamicExtender.PropertyGrid", "Extenders\ACorns.Hawkeye.DynamicExtender.PropertyGrid\ACorns.Hawkeye.DynamicExtender.PropertyGrid.csproj", "{B54F3046-D28A-434C-ADA0-6DEC0152718E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACorns.Hawkeye.DynamicExtender.TFSQueryResult", "Extenders\ACorns.Hawkeye.DynamicExtender.TFSQueryResult\ACorns.Hawkeye.DynamicExtender.TFSQueryResult.csproj", "{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VSAddin", "VSAddin", "{584EE678-2650-460A-BB35-FE8BFF72068C}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACorns.VS.Addin", "Extenders\ACorns.VS.Addin\ACorns.VS.Addin.csproj", "{005B42EB-B299-4140-879E-E6FE2E22A0F4}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Acorns.Hawkeye.DynamicExtender.Snapshot", "Extenders\Acorns.Hawkeye.DynamicExtender.Snapshot\Acorns.Hawkeye.DynamicExtender.Snapshot.csproj", "{AAAA7CD4-0709-4736-9361-0B116C70870F}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}.Debug|x64.ActiveCfg = Debug|x64
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}.Debug|x64.Build.0 = Debug|x64
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}.Debug|x86.Build.0 = Debug|Win32
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}.Release|x64.ActiveCfg = Release|x64
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}.Release|x64.Build.0 = Release|x64
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}.Release|x86.ActiveCfg = Release|Win32
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1}.Release|x86.Build.0 = Release|Win32
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8}.Debug|x64.ActiveCfg = Debug|x64
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8}.Debug|x64.Build.0 = Debug|x64
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8}.Debug|x86.ActiveCfg = Debug|x86
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8}.Debug|x86.Build.0 = Debug|x86
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8}.Release|x64.ActiveCfg = Release|x64
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8}.Release|x64.Build.0 = Release|x64
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8}.Release|x86.ActiveCfg = Release|x86
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8}.Release|x86.Build.0 = Release|x86
+		{E4799E49-66E7-423F-BAF5-BABB769182D9}.Debug|x64.ActiveCfg = Debug|x64
+		{E4799E49-66E7-423F-BAF5-BABB769182D9}.Debug|x64.Build.0 = Debug|x64
+		{E4799E49-66E7-423F-BAF5-BABB769182D9}.Debug|x86.ActiveCfg = Debug|x86
+		{E4799E49-66E7-423F-BAF5-BABB769182D9}.Debug|x86.Build.0 = Debug|x86
+		{E4799E49-66E7-423F-BAF5-BABB769182D9}.Release|x64.ActiveCfg = Release|x64
+		{E4799E49-66E7-423F-BAF5-BABB769182D9}.Release|x64.Build.0 = Release|x64
+		{E4799E49-66E7-423F-BAF5-BABB769182D9}.Release|x86.ActiveCfg = Release|x86
+		{E4799E49-66E7-423F-BAF5-BABB769182D9}.Release|x86.Build.0 = Release|x86
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E}.Debug|x64.ActiveCfg = Debug|x64
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E}.Debug|x64.Build.0 = Debug|x64
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E}.Debug|x86.ActiveCfg = Debug|x86
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E}.Debug|x86.Build.0 = Debug|x86
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E}.Release|x64.ActiveCfg = Release|x64
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E}.Release|x64.Build.0 = Release|x64
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E}.Release|x86.ActiveCfg = Release|x86
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E}.Release|x86.Build.0 = Release|x86
+		{CF275334-9C06-4B4D-A707-C22132724A3E}.Debug|x64.ActiveCfg = Debug|x64
+		{CF275334-9C06-4B4D-A707-C22132724A3E}.Debug|x64.Build.0 = Debug|x64
+		{CF275334-9C06-4B4D-A707-C22132724A3E}.Debug|x86.ActiveCfg = Debug|x86
+		{CF275334-9C06-4B4D-A707-C22132724A3E}.Debug|x86.Build.0 = Debug|x86
+		{CF275334-9C06-4B4D-A707-C22132724A3E}.Release|x64.ActiveCfg = Release|x64
+		{CF275334-9C06-4B4D-A707-C22132724A3E}.Release|x64.Build.0 = Release|x64
+		{CF275334-9C06-4B4D-A707-C22132724A3E}.Release|x86.ActiveCfg = Release|x86
+		{CF275334-9C06-4B4D-A707-C22132724A3E}.Release|x86.Build.0 = Release|x86
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E}.Debug|x64.Build.0 = Debug|Any CPU
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E}.Debug|x86.Build.0 = Debug|Any CPU
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E}.Release|x64.ActiveCfg = Release|Any CPU
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E}.Release|x64.Build.0 = Release|Any CPU
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E}.Release|x86.ActiveCfg = Release|Any CPU
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E}.Release|x86.Build.0 = Release|Any CPU
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}.Debug|x64.Build.0 = Debug|Any CPU
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}.Debug|x86.Build.0 = Debug|Any CPU
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}.Release|x64.ActiveCfg = Release|Any CPU
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}.Release|x64.Build.0 = Release|Any CPU
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}.Release|x86.ActiveCfg = Release|Any CPU
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11}.Release|x86.Build.0 = Release|Any CPU
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4}.Debug|x64.Build.0 = Debug|Any CPU
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4}.Debug|x86.Build.0 = Debug|Any CPU
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4}.Release|x64.ActiveCfg = Release|Any CPU
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4}.Release|x64.Build.0 = Release|Any CPU
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4}.Release|x86.ActiveCfg = Release|Any CPU
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4}.Release|x86.Build.0 = Release|Any CPU
+		{AAAA7CD4-0709-4736-9361-0B116C70870F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AAAA7CD4-0709-4736-9361-0B116C70870F}.Debug|x64.Build.0 = Debug|Any CPU
+		{AAAA7CD4-0709-4736-9361-0B116C70870F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AAAA7CD4-0709-4736-9361-0B116C70870F}.Debug|x86.Build.0 = Debug|Any CPU
+		{AAAA7CD4-0709-4736-9361-0B116C70870F}.Release|x64.ActiveCfg = Release|Any CPU
+		{AAAA7CD4-0709-4736-9361-0B116C70870F}.Release|x64.Build.0 = Release|Any CPU
+		{AAAA7CD4-0709-4736-9361-0B116C70870F}.Release|x86.ActiveCfg = Release|Any CPU
+		{AAAA7CD4-0709-4736-9361-0B116C70870F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4872E30E-BE91-4DF7-B1C4-2B75133256C8} = {3990BBAE-1E35-4467-B554-32A9B42D6288}
+		{E4799E49-66E7-423F-BAF5-BABB769182D9} = {3990BBAE-1E35-4467-B554-32A9B42D6288}
+		{60ACCCD1-B770-4C47-912B-1B32E564EE8E} = {3990BBAE-1E35-4467-B554-32A9B42D6288}
+		{E6A8076C-36F1-42E7-9DAD-CE5DF7FCFCE1} = {3990BBAE-1E35-4467-B554-32A9B42D6288}
+		{B54F3046-D28A-434C-ADA0-6DEC0152718E} = {1EB2D013-4C29-4B81-A325-798F451C47CA}
+		{D3E6283A-24F9-4514-B7B6-C1EC9536DC11} = {1EB2D013-4C29-4B81-A325-798F451C47CA}
+		{AAAA7CD4-0709-4736-9361-0B116C70870F} = {1EB2D013-4C29-4B81-A325-798F451C47CA}
+		{CF275334-9C06-4B4D-A707-C22132724A3E} = {23605CE0-8D30-4B8E-84F0-C187848E454F}
+		{005B42EB-B299-4140-879E-E6FE2E22A0F4} = {584EE678-2650-460A-BB35-FE8BFF72068C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs06.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ACorns.Hawkeye.Core\\ACorns.Hawkeye.Core.csproj
+		SccProjectTopLevelParentUniqueName1 = Hawkeye.sln
+		SccProjectName1 = ACorns.Hawkeye.Core
+		SccLocalPath1 = ACorns.Hawkeye.Core
+		SccProjectUniqueName2 = ACorns.Hawkeye.CoreUI\\ACorns.Hawkeye.CoreUI.csproj
+		SccProjectTopLevelParentUniqueName2 = Hawkeye.sln
+		SccProjectName2 = ACorns.Hawkeye.CoreUI
+		SccLocalPath2 = ACorns.Hawkeye.CoreUI
+		SccProjectUniqueName3 = ACorns.Hawkeye.Injector\\ACorns.Hawkeye.Injector.vcproj
+		SccProjectTopLevelParentUniqueName3 = Hawkeye.sln
+		SccProjectName3 = ACorns.Hawkeye.Injector
+		SccLocalPath3 = ACorns.Hawkeye.Injector
+		SccProjectUniqueName4 = ACorns.Hawkeye\\ACorns.Hawkeye.csproj
+		SccProjectTopLevelParentUniqueName4 = Hawkeye.sln
+		SccProjectName4 = ACorns.Hawkeye
+		SccLocalPath4 = ACorns.Hawkeye
+		SccProjectUniqueName5 = DemoProjects\\Hawkeye.DemoProject\\Hawkeye.DemoProject.csproj
+		SccProjectTopLevelParentUniqueName5 = Hawkeye.sln
+		SccProjectName5 = DemoProjects/Hawkeye.DemoProject
+		SccLocalPath5 = DemoProjects\\Hawkeye.DemoProject
+		SccProjectUniqueName6 = Extenders\\ACorns.Hawkeye.DynamicExtender.PropertyGrid\\ACorns.Hawkeye.DynamicExtender.PropertyGrid.csproj
+		SccProjectTopLevelParentUniqueName6 = Hawkeye.sln
+		SccProjectName6 = Extenders/ACorns.Hawkeye.DynamicExtender.PropertyGrid
+		SccLocalPath6 = Extenders\\ACorns.Hawkeye.DynamicExtender.PropertyGrid
+		SccProjectUniqueName7 = Extenders\\ACorns.Hawkeye.DynamicExtender.TFSQueryResult\\ACorns.Hawkeye.DynamicExtender.TFSQueryResult.csproj
+		SccProjectTopLevelParentUniqueName7 = Hawkeye.sln
+		SccProjectName7 = Extenders/ACorns.Hawkeye.DynamicExtender.TFSQueryResult
+		SccLocalPath7 = Extenders\\ACorns.Hawkeye.DynamicExtender.TFSQueryResult
+		SccProjectUniqueName8 = Extenders\\ACorns.VS.Addin\\ACorns.VS.Addin.csproj
+		SccProjectTopLevelParentUniqueName8 = Hawkeye.sln
+		SccProjectName8 = Extenders/ACorns.VS.Addin
+		SccLocalPath8 = Extenders\\ACorns.VS.Addin
+	EndGlobalSection
+EndGlobal

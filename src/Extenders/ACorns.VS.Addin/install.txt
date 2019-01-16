@@ -1,0 +1,17 @@
+ACorns - TFS Quick Search
+A VS TFS plugin to make your searches in the Result View of TFS much smoother.
+Copyright (c) ACorns
+Corneliu I. Tusnea
+www.Acorns.com.au
+
+Project Homepage: 
+http://www.acorns.com.au/projects/vsaddins/
+
+Unzip the files to:
+
+C:\Documents and Settings\<user name>\Application Data\Microsoft\MSEnvShared\Addins
+Vista:
+C:\Users\<user name>\AppData\Roaming\Microsoft\MSEnvShared\Addins
+Restart VS.
+
+
